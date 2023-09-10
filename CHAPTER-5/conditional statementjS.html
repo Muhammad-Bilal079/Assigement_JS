@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        // Object hai person 1 or person 2
+
+        const person1 ={
+            name: "John",
+            age: 25,
+            status :"resident"
+            }
+
+        const person2 ={
+            name: "herry",
+            age: 15,
+            status :"tourist"
+        }
+
+            // person 1 kay liay condition
+
+        // if(person1.age > 18 && person1.status === "resident"){
+        //     console.log("person is already resident ");
+        // }
+        // else{
+        //     console.log("person is not resident ");
+        // }
+
+         // person 2 kay liay condition
+
+
+        // if(person2.age > 18 && person2.status === "resident"){
+        //     console.log("person is already resident ");
+        // }
+        // else{
+        //     console.log("person is not resident ");
+        // }
+
+
+        // **********************************************************************
+
+        // uper comint hoa wa kam hum nay dusray tariay say kia hai function bnakar
+
+
+        function niceEligibility(person){
+            if(person.age > 18 && person.status === "resident"){
+            console.log("person is already resident ");
+        }
+        else{
+            console.log("person is not resident ");
+        }  
+        }
+        niceEligibility(person1)
+        niceEligibility(person2)
+
+
+    </script>
+</body>
+</html>
